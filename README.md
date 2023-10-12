@@ -1,10 +1,13 @@
-# Banco-de-Dados--PI
+#PROJETO INTEGRADOR - Marketplace (TEM no Bairro)
 
+# ETE Advogado José David Gil Rodrigues
+
+
+# Banco-de-Dados--PI
 O uso do brModelo 3.0 em conjunto com o MySQL é uma abordagem abrangente para criar modelos conceituais e lógicos de banco de dados e implementar um banco de dados funcional. Aqui está um resumo sobre como essas ferramentas funcionam juntas
 
 
 # brModelo 3.0 para Modelagem Conceitual e Lógica
-
 1. **Modelagem Conceitual**: O brModelo 3.0 permite criar modelos conceituais de banco de dados. Nessa fase, você projeta o banco de dados de forma independente da tecnologia específica usada para a implementação. Isso inclui a criação de diagramas de entidade-relacionamento (ER) para representar os conceitos e relacionamentos de dados.
 
 2. **Entidades e Relacionamentos**: Você define entidades, seus atributos e as relações entre elas. O brModelo ajuda a especificar os tipos de entidades, chaves primárias, chaves estrangeiras e outros elementos conceituais.
@@ -15,7 +18,6 @@ O uso do brModelo 3.0 em conjunto com o MySQL é uma abordagem abrangente para c
 
 
 # MySQL para a Implementação do Banco de Dados
-
 1. **Criação do Banco de Dados**: Uma vez que o modelo lógico esteja pronto, você pode usar o MySQL para criar o banco de dados real. O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente utilizado e é uma escolha popular para a implementação.
 
 2. **Scripts SQL Gerados**: A partir do brModelo 3.0, você pode gerar automaticamente os scripts SQL que definem a estrutura do banco de dados, incluindo tabelas, colunas, chaves primárias, chaves estrangeiras, índices e outros elementos. Esses scripts são específicos para o MySQL.
