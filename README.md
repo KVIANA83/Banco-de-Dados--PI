@@ -3,10 +3,10 @@
 # ETE Advogado José David Gil Rodrigues
 
 **PI-1**
-*Criar um projeto com levantamento de requisitos, pesquisa de campo (pesquisa quantitativa e qualitativa), mapa mental, persona e protótipo.
+*Criar um projeto com levantamento de requisitos, pesquisa de campo (pesquisa quantitativa e qualitativa), mapa mental, persona e protótipo.*
 
 **PI-2**
-*Versão Web do projeto
+*Versão Web do projeto*
 
 
 # Banco-de-Dados--PI
