@@ -2,6 +2,12 @@
 
 # ETE Advogado José David Gil Rodrigues
 
+**PI-1**
+*Criar um projeto com levantamento de requisitos, pesquisa de campo (pesquisa quantitativa e qualitativa), mapa mental, persona e protótipo.
+
+**PI-2**
+*Versão Web do projeto
+
 
 # Banco-de-Dados--PI
 O uso do brModelo 3.0 em conjunto com o MySQL é uma abordagem abrangente para criar modelos conceituais e lógicos de banco de dados e implementar um banco de dados funcional. Aqui está um resumo sobre como essas ferramentas funcionam juntas
