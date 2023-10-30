@@ -1,0 +1,63 @@
+/* Lógico_1: */
+
+CREATE TABLE Empreendedor (
+    id_empr integer PRIMARY KEY,
+    nome_completo varchar,
+    razao_social varchar,
+    data_nasc date,
+    endereco varchar,
+    telefone varchar,
+    email varchar,
+    senha varchar
+);
+
+CREATE TABLE Usuario (
+    id_usuario integer PRIMARY KEY,
+    nome_completo varchar,
+    nome_social varchar,
+    endereco varchar,
+    telefone varchar,
+    email varchar,
+    data_nasc date,
+    senha varchar
+);
+
+CREATE TABLE Categoria (
+    id_categoria integer PRIMARY KEY,
+    descricao varchar,
+    nome  varchar
+);
+
+CREATE TABLE Produto (
+    Nome varchar,
+    descricao varchar,
+    id_produto integer PRIMARY KEY,
+    url_imagem varchar,
+    fk_Categoria_id_categoria integer,
+    fk_Usuario_id_usuario integer
+);
+
+CREATE TABLE Adquire (
+    fk_Produto_id_produto integer,
+    fk_Empreendedor_id_empr integer
+);
+ 
+ALTER TABLE Produto ADD CONSTRAINT FK_Produto_2
+    FOREIGN KEY (fk_Categoria_id_categoria)
+    REFERENCES Categoria (id_categoria)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Produto ADD CONSTRAINT FK_Produto_3
+    FOREIGN KEY (fk_Usuario_id_usuario)
+    REFERENCES Usuario (id_usuario)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Adquire ADD CONSTRAINT FK_Adquire_1
+    FOREIGN KEY (fk_Produto_id_produto)
+    REFERENCES Produto (id_produto)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Adquire ADD CONSTRAINT FK_Adquire_2
+    FOREIGN KEY (fk_Empreendedor_id_empr)
+    REFERENCES Empreendedor (id_empr)
+    ON DELETE RESTRICT;
