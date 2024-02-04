@@ -6,8 +6,8 @@ CREATE TABLE Empreendedor (
     razao_social varchar (255) NOT NULL,
     data_nasc date NOT NULL,
     endereco varchar (255) NOT NULL,
-    telefone varchar (255) NOT NULL,
-    email varchar (255) NOT NULL,
+    telefone varchar (20) NOT NULL,
+    email varchar (100) NOT NULL,
     senha varchar (255) NOT NULL
 );
 
@@ -16,8 +16,8 @@ CREATE TABLE Usuario (
     nome_completo varchar (255) NOT NULL,
     nome_social varchar (255) NOT NULL,
     endereco varchar (255) NOT NULL,
-    telefone varchar (255) NOT NULL,
-    email varchar (255) NOT NULL,
+    telefone varchar (20) NOT NULL,
+    email varchar (100) NOT NULL,
     data_nasc date NOT NULL,
     senha varchar (255) NOT NULL
 );
