@@ -8,7 +8,7 @@ CREATE TABLE Empreendedor (
     endereco varchar (255) NOT NULL,
     telefone varchar (20) NOT NULL,
     email varchar (100) NOT NULL,
-    senha varchar (255) NOT NULL
+    senha varchar (100) NOT NULL
 );
 
 CREATE TABLE Usuario (
@@ -19,7 +19,7 @@ CREATE TABLE Usuario (
     telefone varchar (20) NOT NULL,
     email varchar (100) NOT NULL,
     data_nasc date NOT NULL,
-    senha varchar (255) NOT NULL
+    senha varchar (100) NOT NULL
 );
 
 CREATE TABLE Categoria (
